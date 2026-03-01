@@ -194,6 +194,10 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Runelord Brass | Battle Axe Brass | W2 | Rough Iron |
 | Russ Grey | Wolf Grey | W1 | Wolf Grey |
 | Screaming Bell | Steampunk Copper | W2 | Weapon Bronze |
+| Squig Orange | Rust Orange | W1 | Dry Rust |
+| Tuskgor Fur | Fur Cloak | W1 | Leather Brown |
+| Doombull Brown | Boar Hide | W1 | Dirt Splatter |
+| Pink Horror | Glistening Gums | W1 | Wasteland Soil |
 | Screaming Skull | Vampire Fang | W1 | Skeleton Bone |
 | Screamer Pink | Sword Hilt Burgundy | W1 | Wasteland Soil |
 | Seraphim Sepia | Archaic Sepia Wash | W1 | Soft Tone |
@@ -215,13 +219,13 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Troll Slayer Orange | Fanatic Orange | W1 | Lava Orange |
 | Ungor Flesh | Cerberus Brown | W2 | Barbarian Flesh |
 | Ushabti Bone | Skeleton Legion | W1 | Skeleton Bone |
-| Waaagh Flesh | Orc Hide | W2 | Greenskin |
+| Waaagh! Flesh | Orc Hide | W2 | Greenskin |
 | Warboss Green | Goblinoid Green | W2 | Goblin Green |
 | Warpstone Glow | Emerald Green | W1 | No equivalent |
 | Wazdakka Red | Evil Eye Red | W2 | Abomination Gore |
 | White Scar | White Star | W1 | Matt White |
 | Wild Rider Red | Centurion Red | W3 | Blood Chalice |
-| Word Bearers Red | Berserker Red | W1 | No equivalent |
+| Word Bearers Red | Berserker Red | W1 | Chaotic Red |
 | Warplock Bronze | No equivalent | — | No equivalent |
 | Xereus Purple | Amethyst Rayne | W1 | Alien Purple |
 | XV-88 | Gyzmo Fur | W2 | Fur Brown |
@@ -257,7 +261,7 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 
 | Two Thin Coats | Wave | Citadel | Army Painter |
 |---|---|---|---|
-| Berserker Red | W1 | Word Bearers Red | No equivalent |
+| Berserker Red | W1 | Word Bearers Red | Chaotic Red |
 | Sanguine Scarlet | W1 | Mephiston Red | Vampire Red |
 | Demon Red | W1 | Evil Sun Scarlet | Pure Red |
 | Dark Sun Yellow | W1 | Averland Sunset | Basilisk Brown |
@@ -304,6 +308,9 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Sword Hilt Burgundy | W1 | Screamer Pink | Wasteland Soil |
 | Ancient Forest | W1 | Gorthor Brown | Werewolf Fur |
 | Wasteland Brown | W1 | Baneblade Brown | Monster Brown |
+| Boar Hide | W1 | Doombull Brown | Dirt Splatter |
+| Glistening Gums | W1 | Pink Horror | Wasteland Soil |
+| Fur Cloak | W1 | Tuskgor Fur | Leather Brown |
 | Cold Corpse Blue | W1 | The Fang | Dungeon Grey |
 | Wolf Grey | W1 | Russ Grey | Wolf Grey |
 | Gravestone Blue | W1 | Fenrisian Grey | Ice Storm |
@@ -326,10 +333,10 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Abyss Blue | W2 | Kantor Blue | Deep Blue |
 | Witching Hour Blue | W2 | Caledor Sky | Viking Blue |
 | Leviathan Blue | W2 | Hoeth Blue | Voidshield Blue |
-| Orc Hide | W2 | Waaagh Flesh | Greenskin |
+| Orc Hide | W2 | Waaagh! Flesh | Greenskin |
 | Goblinoid Green | W2 | Warboss Green | Goblin Green |
 | Troll Snot Green | W2 | Skarsnik Green | Mouldy Clothes |
-| Field Grey | W2 | Vulkan Green | Warrior Grey |
+| Field Grey | W2 | Vulkan Green | Crypt Wraith |
 | Ranger Cloak | W2 | Sons of Horus Green | Venom Worm |
 | Kobold Grey | W2 | Krieg Khaki | Combat Fatigues |
 | Fury Green | W2 | Castellan Green | Elf Green |
@@ -377,6 +384,9 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Amphora Red | W3 | Gal Vorbak Red | Black Red |
 | Emperor Red | W3 | Wazdakka Red | Wyvem Fury |
 | Centurion Red | W3 | Wild Rider Red | Blood Chalice |
+| Red Rage | W3 | No equivalent | No equivalent |
+| Apocalypse Sky | W3 | No equivalent | No equivalent |
+| Inferno Orange | W3 | No equivalent | Molten Lava |
 | Panzer Yellow | W3 | No equivalent | Wasteland Clay |
 | Flak Gun Yellow | W3 | No equivalent | Burnt Turf |
 | Ambush Yellow | W3 | No equivalent | Barren Dune |
@@ -502,7 +512,7 @@ original brand and paint in the recipe's Notes section.
 | Heavy Red (141) | Sanguine Scarlet | W1 | Mephiston Red | Vampire Red |
 | Heavy Blue (143) | Marine Blue | W1 | Macragge Blue | Dark Sky |
 | Heavy Green (146) | Gung-Ho Green | W2 | Loren Forest | Army Green |
-| Heavy Blackgreen (147) | Orc Hide | W2 | Waaagh Flesh | Greenskin |
+| Heavy Blackgreen (147) | Orc Hide | W2 | Waaagh! Flesh | Greenskin |
 | Heavy Warmgrey (148) | Griffon Claw | W1 | Rakarth Flesh | Banshee Brown |
 | Heavy Khaki (149) | No equivalent | — | Deathworld Forest | No equivalent |
 | Heavy Ochre (150) | No equivalent | — | Balor Brown | No equivalent |
@@ -526,7 +536,7 @@ original brand and paint in the recipe's Notes section.
 | Intermediate Green (891) | Emerald Green | W1 | Warpstone Glow | No equivalent |
 | Pastel Green (885) | Goblinoid Green | W2 | Warboss Green | Goblin Green |
 | Olive Green (967) | No equivalent | — | Elysian Green | No equivalent |
-| Black Green (980) | Orc Hide | W2 | Waaagh Flesh | Greenskin |
+| Black Green (980) | Orc Hide | W2 | Waaagh! Flesh | Greenskin |
 | Park Green (969) | Ghoul Green | W2 | Sybarite Green | No equivalent |
 | Emerald (838) | Jade Green | W2 | Kabalite Green | Wizards Orb |
 | Dark Prussian Blue (965) | Marine Blue | W1 | Macragge Blue | Dark Sky |
@@ -622,7 +632,7 @@ original brand and paint in the recipe's Notes section.
 | Chestnut Brown (9071) | Dry Rust Brown | W2 | Skrag Brown | No equivalent |
 | Chestnut Gold (9073) | No equivalent | — | Zamesi Desert | No equivalent |
 | Tanned Leather (9031) | Barbarian Brawn | W1 | Bugman's Glow | Tanned Flesh |
-| Jungle Moss (9082) | Orc Hide | W2 | Waaagh Flesh | Greenskin |
+| Jungle Moss (9082) | Orc Hide | W2 | Waaagh! Flesh | Greenskin |
 | Olive Drab (9158) | Gung-Ho Green | W2 | Loren Forest | Army Green |
 | Pine Green (9010) | Wyvern Green | W1 | Caliban Green | Angel Green |
 | Clear Green (9096) | Emerald Green | W1 | Warpstone Glow | No equivalent |
