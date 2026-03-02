@@ -28,18 +28,21 @@ and structure the painting recipe using the format and conventions below.
   - Source is Vallejo → use the "Vallejo Game Color" or "Vallejo Model Color" table
   - Source is Army Painter → use the TTC table, search the Army Painter column
   - Source is TTC → use the TTC table directly
+- In the recipe Paint Equivalents table, include the wave number in
+  parentheses after the TTC paint name, e.g. "Oblivion Black Wash (W1)".
+  Do NOT use a separate Wave column in the recipe table.
 - **CRITICAL: Never invent or guess TTC paint names. TTC names are exact
   product names — they must be found in the reference tables below, verbatim.
   Common ones to get right:**
-  - Nuln Oil → **Oblivion Black Wash** (W1)
-  - Agrax Earthshade → **Battle Mud Wash** (W1)
-  - Seraphim Sepia → **Archaic Sepia Wash** (W1)
-  - Reikland Fleshshade → **Flesh Wash** (W1)
-  - Carroburg Crimson → **Hellion Red Wash** (W2)
-  - Drakenhof Nightshade → **Tempest Blue Wash** (W2)
-  - Druchii Violet → **Magi Purple Wash** (W2)
-  - Athonian Camoshade → **Necrosis Green Wash** (W1)
-  - Biel-Tan Green → **Orc Flesh Wash** (W1)
+  - Nuln Oil → **Oblivion Black Wash (W1)**
+  - Agrax Earthshade → **Battle Mud Wash (W1)**
+  - Seraphim Sepia → **Archaic Sepia Wash (W1)**
+  - Reikland Fleshshade → **Flesh Wash (W1)**
+  - Carroburg Crimson → **Hellion Red Wash (W2)**
+  - Drakenhof Nightshade → **Tempest Blue Wash (W2)**
+  - Druchii Violet → **Magi Purple Wash (W2)**
+  - Athonian Camoshade → **Necrosis Green Wash (W1)**
+  - Biel-Tan Green → **Orc Flesh Wash (W1)**
   - **If a paint is not in the tables, write "No equivalent". Never invent
     a plausible-sounding name.**
 - Only write "No equivalent" if the paint genuinely does not appear anywhere
@@ -49,8 +52,7 @@ and structure the painting recipe using the format and conventions below.
 - Daler-Rowney FW Inks have properties which are difficult to achieve with paints. When these inks are used, do not attempt to find equivalents. Only write "No equivalent"
 - When the source material uses other inks than Daler-Rowney do not attempt to 
   look up equivalents. Only write "No equivalent"
-- When the source material uses oil paints, so not look up equivalents. Only write 
-  "No equivalent"
+- When the source material uses oil and/or enamel paints, do not look up equivalents. Only write "No equivalent"
 - When the source material references the use of an airbrush, modify the steps to use 
   comparable brush technique in place of the airbrush.
 - When the source material is focused on a particular miniature sculpt, make the recipe
@@ -89,8 +91,8 @@ Never use spaces, capitals, or underscores in filenames.
 
 ## Paint Equivalents
 
-| Role | Source Paint | Two Thin Coats | Wave | Citadel | Army Painter |
-|---|---|---|---|---|---|
+| Role | Source Paint | Two Thin Coats | Citadel | Army Painter |
+|---|---|---|---|---|
 
 
 ## Steps
@@ -107,7 +109,7 @@ Never use spaces, capitals, or underscores in filenames.
 
 ## Printable Version
 
-[filename of generated docx]
+[filename of generated docx](../Printables/filename of generated docx)
 ```
 
 ---
