@@ -60,6 +60,68 @@ and structure the painting recipe using the format and conventions below.
   be widely applicable to a variety of miniature sculpts.
 
 
+---
+
+## MANDATORY VERIFICATION STEP
+
+**Before finalising the Paint Equivalents table, you MUST perform the following
+audit on every single row. Do not skip this step. Do not assume your first-pass
+lookups were correct — re-check each entry against the tables explicitly.**
+
+For every row in your Paint Equivalents table, work through this checklist:
+
+### Check 1 — No invented TTC names
+Locate the exact TTC paint name you wrote in the table reference tables below.
+Search the "Two Thin Coats" column (or TTC column) and confirm it appears
+verbatim. If you cannot find it, the name is wrong — replace it with the
+correct name from the table, or write "No equivalent" if it genuinely
+does not appear anywhere.
+
+### Check 2 — No false "No equivalent" entries
+If you wrote "No equivalent" in any cell, re-search all relevant tables for
+the source paint before accepting it. Specifically:
+- For Citadel source paints: search the "Citadel → TTC Quick Reference" table
+- For TTC equivalents: search the TTC column of the main TTC table
+- For Army Painter equivalents: search the Army Painter column of the main TTC table
+Only leave "No equivalent" if the paint is genuinely absent after this re-check.
+
+### Check 3 — Citadel column contains the correct Citadel paint
+The Citadel column must contain the correct Citadel equivalent — not a
+substitute from another brand. A common failure mode is writing a
+Citadel-sounding name that is actually a different brand's paint, or confusing
+two paints that serve similar roles (e.g. writing Steel Legion Drab instead of
+Zandri Dust). Re-confirm each Citadel entry maps correctly.
+
+### Check 4 — Wave number is present on all TTC entries
+Every TTC paint name that has an equivalent must include its wave number in
+parentheses, e.g. "Sanguine Scarlet (W1)". If you wrote a TTC name without
+a wave number, look it up and add it.
+
+### Check 5 — Special paint categories are excluded from lookup
+Confirm that any of the following paint types are listed as "No equivalent"
+across all columns and have NOT been looked up:
+- Oils and enamels
+- Daler-Rowney FW Inks
+- Any other inks (non-Daler-Rowney)
+- Vallejo Metal Color range
+
+### Verification output format
+Before writing the final recipe, produce a silent internal audit block
+(you do not need to show this to the user) structured as follows. Work through
+every row and confirm pass or fail for each check. If any check fails, correct
+the table before proceeding:
+
+  Row: [Source Paint]
+  Check 1 (TTC name found verbatim): PASS / FAIL → [corrected value if needed]
+  Check 2 (No false No equivalent): PASS / FAIL → [corrected value if needed]
+  Check 3 (Citadel column correct): PASS / FAIL → [corrected value if needed]
+  Check 4 (Wave number present): PASS / FAIL → [corrected value if needed]
+  Check 5 (Special category excluded): PASS / N/A
+
+Only proceed to generate the markdown and docx once all rows pass all checks.
+
+---
+
 ## Filename Convention
 Always use lowercase hyphenated filenames. Format:
 ```
@@ -106,6 +168,10 @@ Never use spaces, capitals, or underscores in filenames.
 ## Variations & Ideas
 
 - [Adaptations, alternative approaches, things to try]
+  
+## Wider Application
+
+- [Other Warhammer Fantasy, Warhammer 40k, Mordheim, Necromunda, Blood Bowl, WarCry, Dungeons & Dragons, Gritty Fantasy RPG, Gritty Sc-Fi RPG, Cyber Punk RPG, Terrain, Miniatures that could benfit from these techniques]
 
 ## Printable Version
 
@@ -343,74 +409,31 @@ name here to find the correct TTC name — do not guess or invent TTC names.*
 | Cursed Blue | W2 | Ahriman Blue | Royal Cloak |
 | Ray Gun Glow | W2 | Baharroth Blue | Toxic Mist |
 | Abyss Blue | W2 | Kantor Blue | Deep Blue |
-| Witching Hour Blue | W2 | Caledor Sky | Viking Blue |
+| Witching Hour Blue | W2 | Caledor Sky | Crystal Blue |
 | Leviathan Blue | W2 | Hoeth Blue | Voidshield Blue |
+| Jade Green | W2 | Kabalite Green | Wizards Orb |
+| Ghoul Green | W2 | Sybarite Green | No equivalent |
+| Fury Green | W2 | Castellan Green | Elf Green |
+| Gung-Ho Green | W2 | Loren Forest | Army Green |
 | Orc Hide | W2 | Waaagh! Flesh | Greenskin |
 | Goblinoid Green | W2 | Warboss Green | Goblin Green |
 | Troll Snot Green | W2 | Skarsnik Green | Mouldy Clothes |
-| Field Grey | W2 | Vulkan Green | Crypt Wraith |
-| Ranger Cloak | W2 | Sons of Horus Green | Venom Worm |
-| Kobold Grey | W2 | Krieg Khaki | Combat Fatigues |
-| Fury Green | W2 | Castellan Green | Elf Green |
-| Gung-Ho Green | W2 | Loren Forest | Army Green |
-| Green Beret | W2 | Straken Green | Scaly Hide |
 | Hydra Green | W2 | Incubi Darkness | No equivalent |
-| Jade Green | W2 | Kabalite Green | Wizards Orb |
-| Ghoul Green | W2 | Sybarite Green | Elemental Bolt |
-| Ashen Grey | W2 | Eshin Grey | Necromancer Cloak |
-| Eidolon Grey | W2 | Skavenblight Dinge | Hardened Carapace |
-| Rodent Grey | W2 | Stormvermin Fur | Castle Grey |
+| Druid Flesh | W2 | Catachan Flesh | Onyx Skin |
+| Satyr Brown | W2 | Deathclaw Brown | Troll Claws |
 | Noble Steed Brown | W2 | Mournfang Brown | Dirt Spatter |
 | Dry Rust Brown | W2 | Skrag Brown | Fur Brown |
-| Satyr Brown | W2 | Deathclaw Brown | Troll Claws |
-| Gyzmo Fur | W2 | XV-88 | Fur Brown |
 | Manticore Ochre | W2 | Tau Light Ochre | Troll Claws |
-| Cerberus Brown | W2 | Ungor Flesh | Barbarian Flesh |
-| Argonaut Skin | W2 | No equivalent | Dorado Skin |
-| Kronos Flesh | W2 | No equivalent | Amber Skin |
-| Ares Flesh | W2 | No equivalent | Banshee Brown |
-| Druid Flesh | W2 | Catachan Flesh | Onyx Skin |
-| Paladin Flesh | W2 | Blood Reaver Flesh | Mocca Skin |
-| Bard Skin | W2 | Knight Questor Flesh | Jasper Skin |
-| Hellspawn Red | W2 | No equivalent | No equivalent |
-| Craven Yellow | W2 | No equivalent | Moondust |
-| Gigawatt Blue | W2 | No equivalent | No equivalent |
-| Flaming Forge Orange | W2 | No equivalent | Phoenix Flames |
-| Talisman Green | W2 | No equivalent | Poisonous Cloud |
-| Amulet Purple | W2 | No equivalent | Oozing Purple |
+| Rodent Grey | W2 | Stormvermin Fur | No equivalent |
+| Eidolon Grey | W2 | Skavenblight Dinge | Hardened Carapace |
+| Ashen Grey | W2 | Eshin Grey | Necromancer Cloak |
 | Dwarven Iron | W2 | Iron Warriors | No equivalent |
 | Battle Axe Brass | W2 | Runelord Brass | Rough Iron |
 | Steampunk Copper | W2 | Screaming Bell | Weapon Bronze |
-| Overlord Brass | W2 | Castellax Bronze | No equivalent |
-| Top Brass | W2 | Sycorax Bronze | No equivalent |
-| Platinum Crown | W2 | Canoptek Alloy | No equivalent |
-| Orange Glaze | W2 | No equivalent | No equivalent |
-| Green Glaze | W2 | No equivalent | No equivalent |
-| Purple Glaze | W2 | No equivalent | No equivalent |
-| Red Glaze | W2 | No equivalent | No equivalent |
-| Yellow Glaze | W2 | No equivalent | No equivalent |
-| Blue Glaze | W2 | No equivalent | No equivalent |
 | Hellion Red Wash | W2 | Carroburg Crimson | Red Tone |
 | Tempest Blue Wash | W2 | Drakenhof Nightshade | Blue Tone |
 | Magi Purple Wash | W2 | Druchii Violet | Purple Tone |
-| Amphora Red | W3 | Gal Vorbak Red | Black Red |
-| Emperor Red | W3 | Wazdakka Red | Wyvem Fury |
 | Centurion Red | W3 | Wild Rider Red | Blood Chalice |
-| Red Rage | W3 | No equivalent | No equivalent |
-| Apocalypse Sky | W3 | No equivalent | No equivalent |
-| Inferno Orange | W3 | No equivalent | Molten Lava |
-| Panzer Yellow | W3 | No equivalent | Wasteland Clay |
-| Flak Gun Yellow | W3 | No equivalent | Burnt Turf |
-| Ambush Yellow | W3 | No equivalent | Barren Dune |
-| Serpent Eye Yellow | W3 | Phalanx Yellow | Warped Yellow |
-| Sun Bleach Yellow | W3 | Dom Yellow | Space Dust |
-| Twin Suns Yellow | W3 | No equivalent | Ice Yellow |
-| War Master Green | W3 | Lupercal Green | Scarab Green |
-| Traitor Green | W3 | Sons of Horus Green | Temple Gate Teal |
-| Legion Green | W3 | Sybarite Green | Pharaoh Guard |
-| Contagion Green | W3 | Death Guard Green | Olive Drab |
-| Zombie Rot | W3 | Ionrach Skin | Necrotic Flesh |
-| Pestilence Green | W3 | Deepkin Flesh | Grotesque Green |
 | Oxidation Green | W3 | Stegadon Scale Green | Scarab Green |
 | Antiquity Green | W3 | Sotek Green | Pharaoh Guard |
 | Mythic Turquoise | W3 | Temple Guard Blue | Talisman Teal |
