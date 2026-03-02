@@ -46,8 +46,16 @@ and structure the painting recipe using the format and conventions below.
   in the reference tables.
 - Vallejo Metal Color paints (e.g. Pale Burnt Metal, Aluminum) are a specialist
   metallic range with no direct equivalents — note this clearly.
-- Daler-Rowney FW Inks have properties which are difficult to achieve with paints. 
-  When these inks are used, do not attempt to find equivalents. Only write "No equivalent" 
+- Daler-Rowney FW Inks have properties which are difficult to achieve with paints. When these inks are used, do not attempt to find equivalents. Only write "No equivalent"
+- When the source material uses other inks than Daler-Rowney do not attempt to 
+  look up equivalents. Only write "No equivalent"
+- When the source material uses oil paints, so not look up equivalents. Only write 
+  "No equivalent"
+- When the source material references the use of an airbrush, modify the steps to use 
+  comparable brush technique in place of the airbrush.
+- When the source material is focused on a particular miniature sculpt, make the recipe
+  generic so that the techniques can be applied to a other sculpts. The recipe should
+  be widely applicable to a variety of miniature sculpts.
 
 
 ## Filename Convention
