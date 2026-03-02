@@ -46,6 +46,8 @@ and structure the painting recipe using the format and conventions below.
   in the reference tables.
 - Vallejo Metal Color paints (e.g. Pale Burnt Metal, Aluminum) are a specialist
   metallic range with no direct equivalents — note this clearly.
+- Daler-Rowney FW Inks have properties which are difficult to achieve with paints. 
+  When these inks are used, do not attempt to find equivalents. Only write "No equivalent" 
 
 
 ## Filename Convention
